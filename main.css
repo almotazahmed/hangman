@@ -293,7 +293,7 @@ width: 20px;
 .word{
   background-color: #eee;
   padding: 20px;
-  height: 100px;
+  height: fit-content;
   display: flex;
   align-items: center;
   justify-content: center;
