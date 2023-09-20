@@ -53,10 +53,8 @@ function addActive(wordsList, word) {
 }
 
 // Main function to play the game
-function play(wordType, word) {
-  console.log(wordType);
-  console.log(word);
-
+function play (wordType, word) {
+  
   // Clear the word container
   wordElement.innerHTML = "";
 

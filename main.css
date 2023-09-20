@@ -1,92 +1,92 @@
 
 * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .container {
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Small */
 @media (min-width: 768px) {
-    .container {
-        width: 750px;
-    }
+  .container {
+      width: 750px;
+  }
 }
 
 /* Medium */
 @media (min-width: 992px) {
-    .container {
-        width: 970px;
-    }
+  .container {
+      width: 970px;
+  }
 }
 
 /* Large */
 @media (min-width: 1200px) {
-    .container {
-        width: 1170px;
-    }
+  .container {
+      width: 1170px;
+  }
 }
 .game-info{
-    display: flex;
-    justify-content: space-between;
-    font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
 }
 .game-info .from span{
-    color: rgb(193, 13, 13);
-    font-weight: bold;
+  color: rgb(193, 13, 13);
+  font-weight: bold;
 }
 .words-type{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
-    font-weight: 600;
-    padding: 10px;
-    margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  font-weight: 600;
+  padding: 10px;
+  margin-bottom: 10px;
 }
 .words-type div{
-    min-width: 100px;
-    padding: 6px 10px;
-    text-align: center;
-    border-radius: 6px;
-    box-shadow: 0 0 5px 1px rgb(213, 213, 213);
-    cursor: pointer;
+  min-width: 100px;
+  padding: 6px 10px;
+  text-align: center;
+  border-radius: 6px;
+  box-shadow: 0 0 5px 1px rgb(213, 213, 213);
+  cursor: pointer;
 }
 .words-type div:hover {
-    animation: wiggle 2s linear infinite;
+  animation: wiggle 2s linear infinite;
 }
 .words-type .programming{
-    background-color: #edafb8;
+  background-color: #edafb8;
 }
 .words-type .people{
-    background-color: #f7e1d7;
+  background-color: #f7e1d7;
 }
 .words-type .movies{
-    background-color: #dedbd2;
+  background-color: #dedbd2;
 }
 .words-type .countries{
-    background-color: #b0c4b1;
+  background-color: #b0c4b1;
 }
 .main-div{
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(550px, 1fr));
 }
 .main-div-dis{
-    opacity: .4;
+  opacity: .4;
 }
 .hangman-draw, .letters{
   flex: 1;
