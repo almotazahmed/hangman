@@ -109,7 +109,7 @@ function play(wordType, word) {
       } else {
         failCount++;
         hangMan.classList.add(`wrong-${failCount}`);
-        if (failCount === 7) {
+        if (failCount === 8) {
           popUp("You Lost!", word);
         }
       }
